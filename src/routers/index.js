@@ -7,6 +7,6 @@ function routers(app) {
     app.use('/users', userRouter);
     app.use('/api/blog', blogRouter);
     app.use('/api/category', categoryRouter);
-    app.use('/', siteRouter);
+    // app.use('/', siteRouter);
 }
 module.exports = routers;
