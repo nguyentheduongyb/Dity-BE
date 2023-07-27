@@ -1,8 +1,8 @@
 const express = require('express');
-const auth = require('~/app/middlewares/auth.js')
+const auth = require('/app/middlewares/auth.js')
 const router = express.Router();
 
-const BlogController = require('~/app/controllers/BlogController');
+const BlogController = require('/app/controllers/BlogController');
 
 router.post('/', auth, BlogController.upload, BlogController.create);
 router.put('/:id', auth, BlogController.update);

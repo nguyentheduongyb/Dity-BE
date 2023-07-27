@@ -1,8 +1,8 @@
 const express = require('express');
-const auth = require('~/app/middlewares/auth.js')
+const auth = require('/app/middlewares/auth.js')
 const router = express.Router();
 
-const CategoryController = require('~/app/controllers/CategoryController');
+const CategoryController = require('/app/controllers/CategoryController');
 
 router.post('/', auth, CategoryController.create);
 router.put('/:id', auth, CategoryController.update);

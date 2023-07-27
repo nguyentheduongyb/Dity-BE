@@ -1,7 +1,7 @@
-const userRouter = require('~/routers/userRouter');
-const siteRouter = require('~/routers/siteRouter');
-const categoryRouter = require('~/routers/categoryRouter');
-const blogRouter = require('~/routers/blogRouter');
+const userRouter = require('/routers/userRouter');
+const siteRouter = require('/routers/siteRouter');
+const categoryRouter = require('/routers/categoryRouter');
+const blogRouter = require('/routers/blogRouter');
 
 function routers(app) {
     app.use('/users', userRouter);
