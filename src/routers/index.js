@@ -1,5 +1,5 @@
 const userRouter = require('~/routers/userRouter');
-const siteRouter = require('~/routers/siteRouter');
+// const siteRouter = require('~/routers/siteRouter');
 const categoryRouter = require('~/routers/categoryRouter');
 const blogRouter = require('~/routers/blogRouter');
 
